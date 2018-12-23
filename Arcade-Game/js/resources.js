@@ -87,6 +87,7 @@
             if(resourceCache.hasOwnProperty(k) &&
                !resourceCache[k]) {
                 ready = false;
+                break;
             }
         }
         return ready;
